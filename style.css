@@ -12,16 +12,19 @@ body{
     display:flex;
     justify-content: space-between;
     padding: 6px;
+    margin-left: 50px;
 }
 .header-logo{
     font-size: 24px;
     color: #F9FAF8;
+    margin-left: 50px;
 }
 
 .right-links{
     display:flex;
     gap:16px;
     list-style: none;
+    margin-right: 50px;
 }
 
 li a {
@@ -32,12 +35,25 @@ li a {
 
 .header-meat{
     display: flex;
-
+    padding:50px 0 50px;
+    justify-content: center;
 }
 
+.header-main{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    align-items: center;
+    width:500px;
+}
+
+.tree{
+    width: 400px;
+}
 img{
-    width: 100%;
+    max-width: 100%;
     height:auto;
+    margin-right:50px;
 }
 
 .header-title{
@@ -50,5 +66,19 @@ img{
 .header-subtitle{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-button{
+    margin-right: auto;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color: #3882F6;
+    display: inline-block;
+    padding: 15px 32px;
+    font-weight: bold;
+    border-radius:16px;
 }
 
