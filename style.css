@@ -2,6 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
     margin:0;
     min-height: 100vh;
+    display:flex;
+    flex-direction: column;
 }
 
 .header{
@@ -11,13 +13,12 @@ body{
 .forehead{
     display:flex;
     justify-content: space-between;
-    padding: 6px;
-    margin-left: 50px;
+    padding: 6px
 }
 .header-logo{
-    font-size: 24px;
     color: #F9FAF8;
     margin-left: 50px;
+    max-width: 70px
 }
 
 .right-links{
@@ -53,7 +54,6 @@ li a {
 img{
     max-width: 100%;
     height:auto;
-    margin-right:50px;
 }
 
 .header-title{
@@ -70,6 +70,7 @@ img{
 
 .header-button{
     margin-right: auto;
+    margin-top: 10px;
 }
 
 button{
@@ -82,3 +83,98 @@ button{
     border-radius:16px;
 }
 
+.rando{
+    font-size: 36px;
+    font-weight:900;
+    color:#1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding:20px
+}
+
+.upper-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo{
+    max-width: 240px;
+}
+
+.allphoto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cardt{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border-radius: 8px;
+}
+
+.midbod{
+    background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;  
+}
+
+.inspire{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.credit{
+    margin-left: auto;
+}
+
+.botbod{
+    background-color:#3882F6;
+    margin-left: 400px;
+    margin-right:400px;
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.botmeat{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px
+}
+
+.calls{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call{
+    font-size: 24px;
+}
+
+.subcall{
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
