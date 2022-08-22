@@ -73,7 +73,7 @@ img{
     margin-top: 10px;
 }
 
-button{
+.header-button button{
     border: none;
     color: white;
     background-color: #3882F6;
@@ -150,8 +150,9 @@ img{
 
 .botmeat{
     display: flex;
-    justify-content: space-between;
-    padding: 25px
+    justify-content: space-around;
+    padding: 25px;
+    gap: 25px;
 }
 
 .calls{
@@ -162,10 +163,23 @@ img{
 
 .call{
     font-size: 24px;
+    font-weight: 900;
+    color: white;
 }
 
 .subcall{
     font-size: 18px;
+    color:#E5E7EB;
+}
+
+.subbutton button{
+    border-color: white;
+    color: white;
+    background-color: #3882F6;
+    display: inline-block;
+    padding: 15px 32px;
+    font-weight: bold;
+    border-radius:16px;
 }
 
 .footer{
